@@ -12,7 +12,7 @@
                     <span class="text-lg font-bold">{{ userService.getUserById2(getUserFromService().sender)?.name }}</span>
                     <span class="text-sm">{{ messagesService.formatTime(getUserFromService().timestamp) }}</span>
                 </div>
-                <div class=" p-[15px] rounded-[30px] w-min" [ngClass]="{ 'bg-purple2 text-white rounded-se-none rounded-ss-[30px]': userService.fromCurrentUser(getUserFromService().sender), 'bg-primary rounded-ss-none': !userService.fromCurrentUser(getUserFromService().sender) }">
+                <div class=" p-[15px] rounded-[30px]" [ngClass]="{ 'bg-purple2 text-white rounded-se-none rounded-ss-[30px]': userService.fromCurrentUser(getUserFromService().sender), 'bg-primary rounded-ss-none': !userService.fromCurrentUser(getUserFromService().sender) }">
                     <span>{{ getUserFromService().message }}</span>
                 </div>
             </div>
