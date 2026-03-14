@@ -22,7 +22,7 @@ export class UsersService implements OnDestroy {
   componentExsits = false;
   
   GuestUser = {
-    id: '8NKbc9VNUrGbVjXJKEjT',
+    id: 'DN5TwxJW30kVL48vz3lz',
     name: 'Gast',
     email: 'gast@user.de',
     avatar: 'assets/imgs/avatar4.svg'
